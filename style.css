@@ -465,10 +465,11 @@ margin-top: 5px;
     background: url('img/banner-bg.jpg') no-repeat;
     background-size: cover;
     min-height: 500px;
+    overflow: hidden;
 }
 #banner .phone {
   position: absolute;
-  top: 75px;
+  bottom: -110px;
   right: 15px;
   width: 180px;
   height: 352px;
@@ -501,9 +502,16 @@ cta
 /** media queries**/
 @media (max-width: 991px) {
 #banner .phone {
+  bottom: -225px;
+}
+}
+
+@media (max-width: 360px) {
+#banner .phone {
   display: none;
 }
 }
+
 @media (min-width: 480px) and (max-width: 1023px) {
     .img-sec, .fig-caption {
     width: 100%;
