@@ -201,6 +201,7 @@ a.btn-banner:hover, a.btn-banner:focus
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 0px;
+    position: relative;
 }
 .bgblue-dark
 {
@@ -465,6 +466,28 @@ margin-top: 5px;
     background-size: cover;
     min-height: 500px;
 }
+#banner .phone {
+  position: absolute;
+  right: 15px;
+  width: 180px;
+  height: 352px;
+  background-image: url('img/smartphone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 37px 11px 35px 11px;
+}
+#banner .phone .android {
+  background: url('img/android.png') 0 0 no-repeat;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  height: 119px;
+  width: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  position: absolute;
+}
 .cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
 {
     padding: 10px 25px;
@@ -475,6 +498,11 @@ margin-top: 5px;
 cta
 **************************************/
 /** media queries**/
+@media (max-width: 991px) {
+#banner .phone {
+  display: none;
+}
+}
 @media (min-width: 480px) and (max-width: 1023px) {
     .img-sec, .fig-caption {
     width: 100%;
