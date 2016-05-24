@@ -248,6 +248,7 @@ p.cta-sub-title
     color: #e43c5c;
     font-size: 30px;
     margin-right: 23px;
+    margin-bottom: 15px;
     float: left;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
@@ -523,10 +524,6 @@ cta
 {
     width: 100%;
 }
-.service-box .service-text h3
-{
-    padding-top: 15px;
-}
 .jumbotron h1.small {
     font-size: 44px;
 }
@@ -581,9 +578,6 @@ p.cta-sub-title {
 .jumbotron
 {
     padding: 90px 0px 0px 20px !important;
-}
-.service-box .service-text h3 {
-    padding-top: 15px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
     text-align: center;
