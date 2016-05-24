@@ -468,6 +468,7 @@ margin-top: 5px;
 }
 #banner .phone {
   position: absolute;
+  top: 75px;
   right: 15px;
   width: 180px;
   height: 352px;
